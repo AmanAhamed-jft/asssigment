@@ -30,8 +30,6 @@ function sumDigit(first,second){
     return sum;
 }
 
-// console.log(sumDigit('9999','1'));
-
 function mul(){
 
    for(let j=secondNum.length-1,k=0;j>=0;j--,k++){
@@ -52,11 +50,8 @@ function mul(){
            while(m--){
             mulAns=mulAns+'0';
            }
-        //    console.log(ans,mulAns);
            ans=sumDigit(ans,mulAns);
-        //   console.log(ans.length,ans,mulAns.length,mulAns);
        }  
-    //    console.log(ans);
    }
 }
 mul();
