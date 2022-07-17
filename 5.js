@@ -13,5 +13,5 @@ function palindrome(num){
 }
 
 var num=1992;
-while(!(num==palindrome(num))){ num++}
+while(!(num==palindrome(num))){ num++ }
 console.log(num);

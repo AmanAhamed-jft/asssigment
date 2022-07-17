@@ -8,10 +8,14 @@ text.split(' ').forEach((val)=>{
     }else
     map.set(val,1);
 });
-map=new Map([...map.entries()].sort((a,b)=>{
-        if(a[1]==b[1])
-        return b[0]-a[0]
-        else
-        return b[1]-a[1]
+map=new Map([...map].sort((a,b)=>{
+       if(a[1]>b[1])
+       return -1;
+       if (a[1]==b[1]){
+            if(a[0]>b[0])
+            return 1;
+            else
+            return -1;
+       }
 }));
 console.log(map);

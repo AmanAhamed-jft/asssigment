@@ -7,7 +7,7 @@
 // (+91)999-899-9891
 
 
-let num='6387959740'
+let num='+91 6387959740'
 let prefix='';
 
 function validPerfix(){
