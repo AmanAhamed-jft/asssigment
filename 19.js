@@ -2,6 +2,6 @@
 
 for(let i=1;i<=100;i++){
    if( i%28==0) console.log(i,'jellyfish');
-   if(i%7==0)  console.log(i,'fish');
-   if(i%4==0)  console.log(i,'jelly');
+   if(i%7==0)   console.log(i,'fish');
+   if(i%4==0)   console.log(i,'jelly');
 }
